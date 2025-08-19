@@ -80,6 +80,21 @@ const projectData = {
         technologies: ['AI/ML', 'Web Technologies', 'Process Automation', 'Data Analytics', 'Cloud Platform'],
         image: 'fas fa-brain',
         link: '../AIForSmallBiz/index.html'
+    },
+    'cad-fab': {
+        title: '3D CAD, Piping & Fabrication Design',
+        description: 'Mechanical layouts and production-ready packages using SolidWorks: piping, sheet metal, weldments, and structural frames with full drawings and BOMs.',
+        features: [
+            'Parametric 3D assemblies with top-down design',
+            'Piping routes (DI/RO/solvent) with correct fittings and supports',
+            'Sheet metal parts with flat patterns and bend tables',
+            'Weldment frames with cut lists and end treatments',
+            'Drawing sets with GD&T, title blocks, and revision control',
+            'DXF/DWG exports for laser/waterjet and vendor handoff'
+        ],
+        technologies: ['SolidWorks', 'Piping', 'Sheet Metal', 'Weldments', 'GD&T', 'BOM'],
+        image: 'fas fa-drafting-compass',
+        link: '#'
     }
 };
 
