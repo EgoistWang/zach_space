@@ -79,7 +79,7 @@ const projectData = {
         ],
         technologies: ['AI/ML', 'Web Technologies', 'Process Automation', 'Data Analytics', 'Cloud Platform'],
         image: 'fas fa-brain',
-        link: '../WebPage_AI/index.html'
+        link: '../AIForSmallBiz/index.html'
     }
 };
 
