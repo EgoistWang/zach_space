@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhihao Wang - System Design & Automation Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+                            <div class="nav-logo">
+                    <span class="logo-text">Zhihao Wang</span>
+                </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#resume" class="nav-link">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight">Zhihao Wang</span><br>
+                        <span class="highlight">System Design</span> & 
+                        <span class="highlight">Automation Engineer</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Specializing in SCADA systems, PLC programming, and industrial automation solutions with expertise in system integration and process optimization
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Client Satisfaction</span>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="tech-grid">
+                        <div class="tech-item" data-tech="SCADA">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <div class="tech-item" data-tech="PLC">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <div class="tech-item" data-tech="Python">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <div class="tech-item" data-tech="Ignition">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>System Design Engineer</h3>
+                        <span class="company">Industrial Automation Solutions</span>
+                        <span class="duration">2023 - Present</span>
+                    </div>
+                    <div class="experience-content">
+                        <p>Design and implement comprehensive automation solutions for industrial processes, specializing in SCADA systems and PLC programming for enhanced operational efficiency.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Ignition SCADA</span>
+                            <span class="tech-tag">PLC Programming</span>
+                            <span class="tech-tag">System Integration</span>
+                            <span class="tech-tag">Process Optimization</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Automation Engineer</h3>
+                        <span class="company">Manufacturing Technology Group</span>
+                        <span class="duration">2021 - 2023</span>
+                    </div>
+                    <div class="experience-content">
+                        <p>Developed and maintained automated control systems, implemented web-based HMI interfaces, and optimized manufacturing processes through advanced automation technologies.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HMI Development</span>
+                            <span class="tech-tag">Ladder Logic</span>
+                            <span class="tech-tag">Web Technologies</span>
+                            <span class="tech-tag">Python Scripting</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Control Systems Specialist</h3>
+                        <span class="company">Process Control Industries</span>
+                        <span class="duration">2019 - 2021</span>
+                    </div>
+                    <div class="experience-content">
+                        <p>Designed control algorithms and maintained industrial control systems with focus on safety, reliability, and performance optimization in manufacturing environments.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Control Algorithms</span>
+                            <span class="tech-tag">Safety Systems</span>
+                            <span class="tech-tag">Performance Optimization</span>
+                            <span class="tech-tag">Quality Control</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-project="web-demo">
+                    <div class="project-image">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Web Design Demo</h3>
+                        <p>Modern responsive web interface for industrial monitoring and control systems.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <button class="btn btn-outline project-btn">View Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="ignition">
+                    <div class="project-image">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Ignition SCADA System</h3>
+                        <p>Comprehensive SCADA solution for real-time monitoring and control of industrial processes.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Ignition</span>
+                            <span class="tech-tag">SQL Database</span>
+                            <span class="tech-tag">OPC UA</span>
+                        </div>
+                        <button class="btn btn-outline project-btn">View Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="plc">
+                    <div class="project-image">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>PLC Control System</h3>
+                        <p>Advanced PLC programming for automated manufacturing line with safety interlocks.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Allen-Bradley</span>
+                            <span class="tech-tag">Ladder Logic</span>
+                            <span class="tech-tag">Safety Systems</span>
+                        </div>
+                        <button class="btn btn-outline project-btn">View Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="python">
+                    <div class="project-image">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Python Automation Scripts</h3>
+                        <p>Collection of automation scripts for data collection, analysis, and system integration.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Data Analysis</span>
+                            <span class="tech-tag">API Integration</span>
+                        </div>
+                        <button class="btn btn-outline project-btn">View Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="ai-platform">
+                    <div class="project-image">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>AImpact4SmallBiz Platform</h3>
+                        <p>AI-powered automation platform for small businesses with end-to-end process automation and real-time monitoring.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">AI/ML</span>
+                            <span class="tech-tag">Web Platform</span>
+                            <span class="tech-tag">Process Automation</span>
+                            <span class="tech-tag">Real-time Monitoring</span>
+                        </div>
+                        <button class="btn btn-outline project-btn">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-content">
+                <div class="resume-info">
+                    <h3>Download My Resume</h3>
+                    <p>Get a detailed overview of my professional experience, skills, and achievements in system design and automation engineering.</p>
+                    <div class="resume-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>SCADA System Design & Implementation</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>PLC Programming & Troubleshooting</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Web UI Development</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Python Automation Scripts</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-download">
+                    <a href="Zhihao Wang_Resume_WE_2025.pdf" class="btn btn-primary download-btn" download>
+                        <i class="fas fa-download"></i>
+                        Download PDF Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. Feel free to reach out!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>zachwang.zh@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>Available upon request</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>United States</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Zhihao Wang - System Design & Automation Engineer. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalContent">
+                <!-- Modal content will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
